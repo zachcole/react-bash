@@ -1,7 +1,7 @@
 {
-  "name": "react-bash",
-  "version": "1.4.3",
-  "description": "A configurable/extendable bash terminal component",
+  "name": "zach-bash",
+  "version": "1.0.1",
+  "description": "An extension upon Zack Arglye's react-bash module.",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
@@ -19,11 +19,11 @@
     "prepublish": "npm run clean && npm run lint && npm run build"
   },
   "authors": [
-    "Zack Argyle <zack.argyle@gmail.com> (https://github.com/zackargyle)"
+    "Zach Cole <zcole610@gmail.com> (https://github.com/zachcole)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zackargyle/react-bash.git"
+    "url": "https://github.com/zachcole/react-bash.git"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
@@ -41,7 +41,7 @@
     "eslint-plugin-jsx-a11y": "^1.2.3",
     "eslint-plugin-react": "^5.1.1",
     "mocha": "^2.2.5",
-    "react": "^0.14.8",
+    "react": "^15.3.2",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.3.0",
     "rimraf": "^2.5.2",

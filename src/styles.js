@@ -86,4 +86,16 @@ export default {
             color: '#5b65fb',
         }),
     }),
+    green: Object.assign({}, BaseStyles, {
+        body: Object.assign({}, BaseStyles.body, {
+            backgroundColor: '#00695C',
+            color: '#fff'
+        }),
+        header: Object.assign({}, BaseStyles.header, {
+            backgroundColor: '#dcdbdb'
+        }),
+        prefix: Object.assign({}, BaseStyles.prefix, {
+            color: '#F8E71C'
+        })
+    })
 };
