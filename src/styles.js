@@ -89,13 +89,13 @@ export default {
     green: Object.assign({}, BaseStyles, {
         body: Object.assign({}, BaseStyles.body, {
             backgroundColor: '#00695C',
-            color: '#fff'
+            color: '#fff',
         }),
         header: Object.assign({}, BaseStyles.header, {
-            backgroundColor: '#dcdbdb'
+            backgroundColor: '#dcdbdb',
         }),
         prefix: Object.assign({}, BaseStyles.prefix, {
-            color: '#F8E71C'
-        })
-    })
+            color: '#F8E71C',
+        }),
+    }),
 };
